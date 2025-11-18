@@ -1,4 +1,4 @@
-# ARIMA Forecast for SGD series
+# ARIMA/LSTM Forecast for SGD series
 
 Files added:
 - `data_subset.csv` : provided SGD series (subset)
@@ -18,3 +18,4 @@ Outputs:
 Notes:
 - Script uses ARIMA(p,d,q) default (1,1,1). Adjust `--order` or extend script to use `pmdarima.auto_arima` for automatic selection.
 - The data file uses business-day frequency and forward-fills non-trading days; change behavior as needed.
+
